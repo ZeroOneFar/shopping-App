@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9b876b2-e4bd-41cd-9373-57b47b582df1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ACM.BL/Order.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ACM.BL/OrderItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ACM.BL/Product.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/CustomerTest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ACM.BL/Class1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/Customer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/UnitTest1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/ACM.BL.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/ACM.BL.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/project.nuget.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/src/ACM.BL/Class1.cs" />
+      <option value="$PROJECT_DIR$/test/ACM.BL.Tests/UnitTest1.cs" />
+      <option value="$PROJECT_DIR$/test/ACM.BL.Tests/CustomerTest.cs" />
+      <option value="$PROJECT_DIR$/src/ACM.BL/Customer.cs" />
+      <option value="$PROJECT_DIR$/src/ACM.BL/Product.cs" />
+      <option value="$PROJECT_DIR$/src/ACM.BL/Order.cs" />
+      <option value="$PROJECT_DIR$/src/ACM.BL/OrderItem.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="1mKFJh1HIaDpUkg2kafsNGKD1zM" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.environmentSetup" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c9b876b2-e4bd-41cd-9373-57b47b582df1" name="Default Changelist" comment="" />
+      <created>1609234313635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609234313635</updated>
+      <workItem from="1609234322948" duration="8074000" />
+      <workItem from="1609434587821" duration="2434000" />
+      <workItem from="1609563639442" duration="3771000" />
+      <workItem from="1609641745459" duration="296000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

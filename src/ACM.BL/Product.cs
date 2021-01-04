@@ -16,25 +16,6 @@ namespace ACM.BL
         {
             ProductId = productId;
         }
-        
-        
-        public Product Retrieve(int customerId)
-        {
-            // work left to do
-            return new Product();
-        }
-        public List<Product> Retrieve()
-        {
-            // work left to do
-            return new List<Product>();
-        }
-
-        public bool Save()
-        {
-            //save this item into cloud or what ever.
-            return true;
-        }
-        
         public bool Validate()
         {
             var isValid = !(string.IsNullOrWhiteSpace(ProductName) || ProductId == 0);

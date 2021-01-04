@@ -17,8 +17,11 @@
       <e p="src" t="Include">
         <e p="ACM.BL" t="IncludeRecursive">
           <e p="ACM.BL.csproj" t="IncludeRecursive" />
+          <e p="Address.cs" t="Include" />
+          <e p="AddressRepository.cs" t="Include" />
           <e p="bin" t="ExcludeRecursive" />
           <e p="Customer.cs" t="Include" />
+          <e p="CustomerRepository.cs" t="Include" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
               <e p="net5.0" t="Include">
@@ -28,13 +31,16 @@
           </e>
           <e p="Order.cs" t="Include" />
           <e p="OrderItem.cs" t="Include" />
+          <e p="OrderRepository.cs" t="Include" />
           <e p="Product.cs" t="Include" />
+          <e p="ProductRepository.cs" t="Include" />
         </e>
       </e>
       <e p="test" t="Include">
         <e p="ACM.BL.Tests" t="IncludeRecursive">
           <e p="ACM.BL.Tests.csproj" t="IncludeRecursive" />
           <e p="bin" t="ExcludeRecursive" />
+          <e p="CustomerRepositorTest.cs" t="Include" />
           <e p="CustomerTest.cs" t="Include" />
           <e p="obj" t="ExcludeRecursive">
             <e p="Debug" t="Include">
@@ -43,6 +49,7 @@
               </e>
             </e>
           </e>
+          <e p="ProductRepositoryTest.cs" t="Include" />
         </e>
       </e>
     </e>

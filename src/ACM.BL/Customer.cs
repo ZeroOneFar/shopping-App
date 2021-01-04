@@ -5,19 +5,19 @@ namespace ACM.BL
 {
     public class Customer
     {
+        public List<Address> CustomerAddresses { get; set; }
         public static int CustomerCount { get; private set; }
         public int CustomerId { get; private set; }
         public string Email { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-
-        public Customer()
+        public Customer():this(0)
         {
-            
         }
         public Customer(int customerId)
         {
             CustomerId = customerId;
+            CustomerAddresses = new List<Address>();
         }
         public string FullName
         {
@@ -31,17 +31,7 @@ namespace ACM.BL
                 return name;
             }
         }
-
-        public Customer Retrieve(int customerId)
-        {
-            // work left to do
-            return new Customer();
-        }
-        public List<Customer> Retrieve()
-        {
-            // work left to do
-            return new List<Customer>();
-        }
+        
         public bool Validate()
         {
             bool isValide = !(string.IsNullOrWhiteSpace(Email) || string.IsNullOrWhiteSpace(LastName));

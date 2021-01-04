@@ -22,21 +22,5 @@ namespace ACM.BL
         {
             return orderDate != null && OrderId > 0;
         }
-
-        public List<Order> Retrieve()
-        {
-            return new List<Order>();
-        }
-
-        public Order Retrieve(int orderId)
-        {
-            return new Order();
-        }
-
-        public bool Save()
-        {
-            //save this order
-            return true;
-        }
     }
 }

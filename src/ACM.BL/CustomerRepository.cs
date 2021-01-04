@@ -25,7 +25,24 @@ namespace ACM.BL
 
         public bool Save(Customer customer)
         {
-            return true;
+            var success = true;
+            if (!customer.HasChanges) return success;
+            if (customer.IsValid)
+            {
+                if (customer.IsNew)
+                {
+                    //call and insert stored procedure
+                }
+                else
+                {
+                    //calls an Update stored procedure
+                }
+            }
+            else
+            {
+                success = false;
+            }
+            return success;
         }
     }
 }

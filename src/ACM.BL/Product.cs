@@ -2,7 +2,7 @@
 
 namespace ACM.BL
 {
-    public class Product
+    public class Product : EntityBase
     {
         public int ProductId { get; private set;}
         public string ProductName { get; set; }
@@ -16,7 +16,10 @@ namespace ACM.BL
         {
             ProductId = productId;
         }
-        public bool Validate()
+
+        public override string ToString() => ProductName;
+
+        public override bool Validate()
         {
             var isValid = !(string.IsNullOrWhiteSpace(ProductName) || ProductId == 0);
             return isValid;

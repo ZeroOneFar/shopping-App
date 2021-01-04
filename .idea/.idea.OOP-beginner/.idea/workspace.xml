@@ -2,35 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9b876b2-e4bd-41cd-9373-57b47b582df1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ACM.BL/Address.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ACM.BL/AddressRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ACM.BL/CustomerRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ACM.BL/OrderRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ACM.BL/ProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/CustomerRepositorTest.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/ProductRepositoryTest.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ACM.BL/EntityBase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OOP-beginner/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OOP-beginner/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OOP-beginner/.idea/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OOP-beginner/.idea/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.OOP-beginner/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OOP-beginner/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOP-beginner.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/OOP-beginner.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ACM.BL/Address.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/Address.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ACM.BL/AddressRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/AddressRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ACM.BL/Customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/Customer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ACM.BL/CustomerRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/CustomerRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ACM.BL/Order.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/Order.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ACM.BL/OrderRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/OrderRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ACM.BL/Product.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/Product.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ACM.BL/ProductRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/ProductRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ACM.BL/bin/Debug/net5.0/ACM.BL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/bin/Debug/net5.0/ACM.BL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ACM.BL/bin/Debug/net5.0/ACM.BL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/bin/Debug/net5.0/ACM.BL.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ACM.BL/bin/Debug/net5.0/ref/ACM.BL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/bin/Debug/net5.0/ref/ACM.BL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ACM.BL/obj/ACM.BL.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/obj/ACM.BL.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ACM.BL/obj/ACM.BL.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/obj/ACM.BL.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ACM.BL/obj/Debug/net5.0/ACM.BL.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/obj/Debug/net5.0/ACM.BL.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ACM.BL/obj/Debug/net5.0/ACM.BL.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/obj/Debug/net5.0/ACM.BL.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ACM.BL/obj/Debug/net5.0/ACM.BL.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/obj/Debug/net5.0/ACM.BL.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ACM.BL/obj/Debug/net5.0/ACM.BL.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/obj/Debug/net5.0/ACM.BL.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ACM.BL/obj/Debug/net5.0/ACM.BL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/obj/Debug/net5.0/ACM.BL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ACM.BL/obj/Debug/net5.0/ACM.BL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/obj/Debug/net5.0/ACM.BL.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ACM.BL/obj/Debug/net5.0/ref/ACM.BL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/obj/Debug/net5.0/ref/ACM.BL.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ACM.BL/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ACM.BL/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ACM.BL/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACM.BL/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/bin/Debug/net5.0/ACM.BL.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/bin/Debug/net5.0/ACM.BL.Tests.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/bin/Debug/net5.0/ACM.BL.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/bin/Debug/net5.0/ACM.BL.Tests.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/bin/Debug/net5.0/ACM.BL.Tests.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/bin/Debug/net5.0/ACM.BL.Tests.runtimeconfig.dev.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/bin/Debug/net5.0/ACM.BL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/bin/Debug/net5.0/ACM.BL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/bin/Debug/net5.0/ACM.BL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/bin/Debug/net5.0/ACM.BL.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/bin/Debug/net5.0/ref/ACM.BL.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/bin/Debug/net5.0/ref/ACM.BL.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/ACM.BL.Tests.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/ACM.BL.Tests.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/ACM.BL.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/ACM.BL.Tests.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/Debug/net5.0/ACM.BL.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/Debug/net5.0/ACM.BL.Tests.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/Debug/net5.0/ACM.BL.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/Debug/net5.0/ACM.BL.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/Debug/net5.0/ACM.BL.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/Debug/net5.0/ACM.BL.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/Debug/net5.0/ACM.BL.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/Debug/net5.0/ACM.BL.Tests.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/Debug/net5.0/ACM.BL.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/Debug/net5.0/ACM.BL.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/Debug/net5.0/ACM.BL.Tests.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/Debug/net5.0/ACM.BL.Tests.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/Debug/net5.0/ACM.BL.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/Debug/net5.0/ACM.BL.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/Debug/net5.0/ref/ACM.BL.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/Debug/net5.0/ref/ACM.BL.Tests.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/test/ACM.BL.Tests/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,22 +57,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/ZeroOneFar/shopping-App" />
+      </set>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/src/ACM.BL/Class1.cs" />
       <option value="$PROJECT_DIR$/test/ACM.BL.Tests/UnitTest1.cs" />
       <option value="$PROJECT_DIR$/test/ACM.BL.Tests/CustomerTest.cs" />
       <option value="$PROJECT_DIR$/src/ACM.BL/OrderItem.cs" />
-      <option value="$PROJECT_DIR$/src/ACM.BL/Address.cs" />
       <option value="$PROJECT_DIR$/test/ACM.BL.Tests/CustomerRepositorTest.cs" />
       <option value="$PROJECT_DIR$/test/ACM.BL.Tests/ProductRepositoryTest.cs" />
-      <option value="$PROJECT_DIR$/src/ACM.BL/Product.cs" />
-      <option value="$PROJECT_DIR$/src/ACM.BL/Order.cs" />
-      <option value="$PROJECT_DIR$/src/ACM.BL/OrderRepository.cs" />
-      <option value="$PROJECT_DIR$/src/ACM.BL/ProductRepository.cs" />
+      <option value="$PROJECT_DIR$/src/ACM.BL/EntityBase.cs" />
       <option value="$PROJECT_DIR$/src/ACM.BL/Customer.cs" />
-      <option value="$PROJECT_DIR$/src/ACM.BL/AddressRepository.cs" />
+      <option value="$PROJECT_DIR$/src/ACM.BL/Order.cs" />
+      <option value="$PROJECT_DIR$/src/ACM.BL/Product.cs" />
+      <option value="$PROJECT_DIR$/src/ACM.BL/ProductRepository.cs" />
       <option value="$PROJECT_DIR$/src/ACM.BL/CustomerRepository.cs" />
+      <option value="$PROJECT_DIR$/src/ACM.BL/OrderRepository.cs" />
+      <option value="$PROJECT_DIR$/src/ACM.BL/AddressRepository.cs" />
+      <option value="$PROJECT_DIR$/src/ACM.BL/Address.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1mKFJh1HIaDpUkg2kafsNGKD1zM" />
@@ -93,6 +118,7 @@
       <workItem from="1609563639442" duration="3771000" />
       <workItem from="1609641745459" duration="6318000" />
       <workItem from="1609685096570" duration="3478000" />
+      <workItem from="1609740146117" duration="4422000" />
     </task>
     <servers />
   </component>

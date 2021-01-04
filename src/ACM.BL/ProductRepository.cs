@@ -16,8 +16,24 @@
         }
         public bool Save(Product product)
         {
-            //save this item into cloud or what ever.
-            return true;
+            var success = true;
+            if (!product.HasChanges) return success;
+            if (product.IsValid)
+            {
+                if (product.IsNew)
+                {
+                    //call and insert stored procedure
+                }
+                else
+                {
+                    //calls an Update stored procedure
+                }
+            }
+            else
+            {
+                success = false;
+            }
+            return success;
         }
     }
 }

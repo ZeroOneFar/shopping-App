@@ -1,4 +1,8 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=bf54393c_002D93a9_002D4953_002Da646_002D9ee53012805e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;test&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;Project Location="C:\Users\Faris P M\c#_Projects\Pluralsight\OOP-beginner" Presentation="&amp;lt;test&amp;gt;" /&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::8F2889C4-193B-4A43-B32E-E8A368ECF409::net5.0::ACM.BL.Tests.ProductRepositoryTest.retrieves_similarObject_from_repo&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8F2889C4-193B-4A43-B32E-E8A368ECF409::net5.0::ACM.BL.Tests.CustomerRepositorTest.repository_retrieves_and_saves_data&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::8F2889C4-193B-4A43-B32E-E8A368ECF409::net5.0::ACM.BL.Tests.CustomerTest.returns_fullName_correct_given_first_and_Last_names&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

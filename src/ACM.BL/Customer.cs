@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace ACM.BL
 {
-    public class Customer
+    public sealed class Customer : EntityBase
     {
         public List<Address> CustomerAddresses { get; set; }
         public static int CustomerCount { get; private set; }
@@ -31,8 +31,10 @@ namespace ACM.BL
                 return name;
             }
         }
-        
-        public bool Validate()
+
+        public override string ToString() => FullName;
+
+        public override bool Validate()
         {
             bool isValide = !(string.IsNullOrWhiteSpace(Email) || string.IsNullOrWhiteSpace(LastName));
             return isValide;

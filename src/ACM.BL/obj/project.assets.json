@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Faris P M\\.nuget\\packages\\": {}
+    "C:\\Users\\faris\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Faris P M\\c#_Projects\\Pluralsight\\OOP-beginner\\src\\ACM.BL\\ACM.BL.csproj",
+      "projectUniqueName": "F:\\Faris\\Plurasite Tutorial Projects\\shopping-App\\src\\ACM.BL\\ACM.BL.csproj",
       "projectName": "ACM.BL",
-      "projectPath": "C:\\Users\\Faris P M\\c#_Projects\\Pluralsight\\OOP-beginner\\src\\ACM.BL\\ACM.BL.csproj",
-      "packagesPath": "C:\\Users\\Faris P M\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Faris P M\\c#_Projects\\Pluralsight\\OOP-beginner\\src\\ACM.BL\\obj\\",
+      "projectPath": "F:\\Faris\\Plurasite Tutorial Projects\\shopping-App\\src\\ACM.BL\\ACM.BL.csproj",
+      "packagesPath": "C:\\Users\\faris\\.nuget\\packages\\",
+      "outputPath": "F:\\Faris\\Plurasite Tutorial Projects\\shopping-App\\src\\ACM.BL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Faris P M\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\faris\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Faris P M\\.dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\faris\\.dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

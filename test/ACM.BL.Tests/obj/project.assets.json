@@ -5638,19 +5638,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Faris P M\\.nuget\\packages\\": {}
+    "C:\\Users\\faris\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Faris P M\\c#_Projects\\Pluralsight\\OOP-beginner\\test\\ACM.BL.Tests\\ACM.BL.Tests.csproj",
+      "projectUniqueName": "F:\\Faris\\Plurasite Tutorial Projects\\shopping-App\\test\\ACM.BL.Tests\\ACM.BL.Tests.csproj",
       "projectName": "ACM.BL.Tests",
-      "projectPath": "C:\\Users\\Faris P M\\c#_Projects\\Pluralsight\\OOP-beginner\\test\\ACM.BL.Tests\\ACM.BL.Tests.csproj",
-      "packagesPath": "C:\\Users\\Faris P M\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Faris P M\\c#_Projects\\Pluralsight\\OOP-beginner\\test\\ACM.BL.Tests\\obj\\",
+      "projectPath": "F:\\Faris\\Plurasite Tutorial Projects\\shopping-App\\test\\ACM.BL.Tests\\ACM.BL.Tests.csproj",
+      "packagesPath": "C:\\Users\\faris\\.nuget\\packages\\",
+      "outputPath": "F:\\Faris\\Plurasite Tutorial Projects\\shopping-App\\test\\ACM.BL.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Faris P M\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\faris\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5662,8 +5662,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Faris P M\\c#_Projects\\Pluralsight\\OOP-beginner\\src\\ACM.BL\\ACM.BL.csproj": {
-              "projectPath": "C:\\Users\\Faris P M\\c#_Projects\\Pluralsight\\OOP-beginner\\src\\ACM.BL\\ACM.BL.csproj"
+            "F:\\Faris\\Plurasite Tutorial Projects\\shopping-App\\src\\ACM.BL\\ACM.BL.csproj": {
+              "projectPath": "F:\\Faris\\Plurasite Tutorial Projects\\shopping-App\\src\\ACM.BL\\ACM.BL.csproj"
             }
           }
         }
@@ -5714,7 +5714,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Faris P M\\.dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\faris\\.dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

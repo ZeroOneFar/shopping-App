@@ -1,7 +1,7 @@
 ﻿namespace ACM.BL
 {
     public enum AddressType{Home,Work,Office}
-    public class Address
+    public class Address : EntityBase
     {
         public Address(int addressId)
         {
@@ -16,7 +16,7 @@
         public string Country { get; set; }
         public AddressType AddressType { get; set; }
 
-        public bool Validate()
+        public override bool Validate()
         {
             return (!string.IsNullOrWhiteSpace(StreetLine1) || !string.IsNullOrWhiteSpace(StreetLine2))
                    && PostalCodeOrZipCode != null;

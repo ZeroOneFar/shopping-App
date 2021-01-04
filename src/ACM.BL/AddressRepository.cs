@@ -31,8 +31,24 @@ namespace ACM.BL
 
         public bool Save(Address address)
         {
-            //save the state and then returns true
-            return true;
+            var success = true;
+            if (!address.HasChanges) return success;
+            if (address.IsValid)
+            {
+                if (address.IsNew)
+                {
+                    //call and insert stored procedure
+                }
+                else
+                {
+                    //calls an Update stored procedure
+                }
+            }
+            else
+            {
+                success = false;
+            }
+            return success;
         }
     }
 }
